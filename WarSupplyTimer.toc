@@ -1,0 +1,15 @@
+## Interface: 110010
+## Version: 2.0.4
+## Title: WarSupplyTimer
+## SavedVariables: crateDB, settings
+## Notes: Announces, shares, and tracks the dropping of war crates
+## Author: Fixed by Crossfire151 - Created by Hoober
+
+ChatThrottleLib/ChatThrottleLib.xml
+WarSupplyTimer.lua
+Settings.lua
+Time.lua
+Crates.lua
+Frames.lua
+Events.lua
+Commands.lua
