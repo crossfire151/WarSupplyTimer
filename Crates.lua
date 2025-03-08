@@ -207,7 +207,7 @@ local function warnCrate(crateInfo, curTime)
         local alertKey = format("%i-%i", crateInfo.zoneID, nextTS)
         if NS.alerted[alertKey] == nil then
             RaidNotice_AddMessage(RaidWarningFrame,NS.MSG_CRATE_ALERT:format(crateInfo.zoneName, crateInfo.zoneParentName, NS.displayTime(nextIn)),ChatTypeInfo["RAID_WARNING"]);
-            PlaySound(8232, "Master")
+           -- PlaySound(8232, "Master") // Possible cause of repeated alerts.
             NS.alerted[alertKey] = true
         end
     end

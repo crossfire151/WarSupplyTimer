@@ -1,5 +1,5 @@
 ## Interface: 110010
-## Version: 2.0.4
+## Version: 2.0.5
 ## Title: WarSupplyTimer
 ## SavedVariables: crateDB, settings
 ## Notes: Announces, shares, and tracks the dropping of war crates
